@@ -37,7 +37,7 @@ formData.append('status', '1');
 formData.append('go', '1');
 
 
-fetch('http://192.168.164.14/index.php/admins/Admin/adminadd.html', {
+fetch('http://host/index.php/admins/Admin/adminadd.html', {
     method: 'POST',
     mode: 'same-origin', 
     credentials: 'include', 
